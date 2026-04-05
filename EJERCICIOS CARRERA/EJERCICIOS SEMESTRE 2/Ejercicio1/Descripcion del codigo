@@ -1,5 +1,5 @@
 EJERCICIO DE PROGRAMACIÓN
-Elaborado por: Andre Morales
+Programa Elaborado por: Andre Morales
 OBJETIVOS PROPUESTO DE LA CONSIGNA: 
 Reforzar el conocimiento adquirido durante la materia de Algoritmos sobre programación en C.
 INDICACIONES:
@@ -11,7 +11,6 @@ Descripción del problema: Un pequeño comerciante necesita un programa en C par
 •	Calcular y mostrar las ganancias obtenidas hasta el momento a partir de las ventas realizadas.
 •	Salir del programa.
 Requerimientos técnicos
-Para resolver este problema, los estudiantes deberán aplicar:
 •	Uso de variables (enteros, flotantes, cadenas).
 •	Entrada y salida de datos (printf, scanf, gets, fgets).
 •	Estructuras de control:
