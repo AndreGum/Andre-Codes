@@ -46,7 +46,7 @@ int main (int argc, char *argv[]) {
                      while (aux!=1 || preciounitario<=0)
                     {
                             printf("\n!ERROR AL INGRESAR EL PRECIO, VUELVA A INTENTARLO\n");
-                            printf("\nIngresa la cantidad en stock-->");
+                            printf("\nIngresa el precio unitario-->");
                              fflush(stdin); aux= scanf("%f", &preciounitario);
                     }
                     printf("\nLa proxima vez que use esta opcion solo le permitira cambiar el ID, el nombre o el precio unitario en caso de haber error");
