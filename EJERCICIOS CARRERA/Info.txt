@@ -1,0 +1,2 @@
+En este repositorio podras encontrar todos los codigos que he elaborado en toda la carrera
+de ingieneria en software, como ejercicios en clase, deberes, pruebas, etc. 
