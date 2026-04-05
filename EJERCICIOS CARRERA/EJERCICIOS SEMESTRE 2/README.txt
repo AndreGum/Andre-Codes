@@ -1,0 +1,1 @@
+Estos  ejercicios fueron elaborados mediante el transcurso de mu segundo semestre en Ingenieria en Software 
