@@ -49,6 +49,7 @@ int main (int argc, char *argv[]) {
                             printf("\nIngresa el precio unitario-->");
                              fflush(stdin); aux= scanf("%f", &preciounitario);
                     }
+                    printf("\nSu producto se ha guardado con exito");
                     printf("\nLa proxima vez que use esta opcion solo le permitira cambiar el ID, el nombre o el precio unitario en caso de haber error");
                     controlproducto=1;
                     nada=1;
