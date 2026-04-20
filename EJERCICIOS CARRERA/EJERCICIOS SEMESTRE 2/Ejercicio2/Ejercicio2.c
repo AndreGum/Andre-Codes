@@ -378,7 +378,41 @@ int main(int argc, char *argv[])
                         
                     }
                 opcion2 = 0;
+                comparador=0;
                     break;
+                case 7:
+                 if (contadorAlumnos == 0)
+                    {
+                        printf("\nEsta opcion no funciona porque todavia no se ha ingresado ningun alumno\n");
+                    }
+                    else
+                    {
+                        for (int i = 0; i < contadorAlumnos; i++)
+                        {
+                            
+                            for (int j = 0; j < 3; j++)
+                            {
+                                comparador = promedio3[i][j];
+                                if (comparador>=6)
+                                {
+                                    printf("%s ha aprobado la materia de %s, con un promedio de: %f\n", nombres[i], asignatura[j], promedio3[i][j]);
+
+                                }else{
+                                    printf("El estudiante %s no ha aprobado la materia de %s, con un promedio de: %f\n", nombres[i], asignatura[j], promedio3[i][j]);
+                                }
+                                
+                            
+                                
+                            }
+                            
+                        }
+                        
+                    }
+
+                    opcion2 = 0;
+                    break;
+                    case 8:
+                    opcion=8;
 
                 default:
                     break;
@@ -386,6 +420,7 @@ int main(int argc, char *argv[])
             }
         }
     } while (opcion != 8);
+    printf("\nEl programa ha finalizado, gracias por su paciencia :3\n");
 
     return 0;
 }
