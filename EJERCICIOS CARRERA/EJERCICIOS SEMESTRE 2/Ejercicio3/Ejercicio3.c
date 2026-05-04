@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "funciones4.h"
+#include "funciones3.h"
 int main (int argc, char *argv[]) {
     char nombres[10][20];
     float precio[10];

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<string.h>
-#include "funciones4.h"
+#include "funciones3.h"
 int menu(){
     int opc=0;
     printf("\n--------REGISTRADORA DE PRODUCTOS-------\n");
