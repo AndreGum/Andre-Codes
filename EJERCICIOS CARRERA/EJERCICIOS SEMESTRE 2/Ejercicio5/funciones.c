@@ -10,7 +10,7 @@ int menu(){
     printf("3. Buscar informacion de un Libro por Titulo o ID\n");
     printf("4. Actualizar el estado de un Libro\n");
     printf("5. Eliminar Libro\n");
-    printf("6. Salir\n");
+    printf("6. Salirssdsdsds\n");
     printf("--->");
     opc=ValidadordeEnteros(1,6);
     return opc;
