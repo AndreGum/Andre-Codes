@@ -4,7 +4,7 @@
 typedef struct 
 {
    char Disponible[10];
-   char Prestado[10];
+
 }Disponibilidad;
 
 typedef struct 
@@ -13,12 +13,17 @@ typedef struct
     char Titulo[100];
     char Autor[50];
     int Fechadepublicacion;
-    char DisponibleOrPrestado[10];
     Disponibilidad Uso;
-    
+
 }Libro;
 
 int menu();
 int ValidadordeEnteros(int a, int b);
 float ValidadordeReales(float a, float b);
 void LimpiarBuffer();
+int RegistrarLibros(Libro *LibrosNuevos, int *n);
+void MostrarInformacion (int *n, Libro *LibroIngresado);
+void registrarnombre(char *cadena, int n);
+void ControladorDeID(Libro *LibrosNuevos, int *n);
+void BuscarPorIDyActualizarEstado(int *n, Libro *LibrosNuevos);
+void EliminarLibro(int *n, Libro *LibrosNuevos);
